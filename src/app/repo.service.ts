@@ -7,7 +7,7 @@ import { Repo } from './repo';
       providedIn:'root'
   })
 export class RepoService {
-    repo:Repo[];
+    repo:Repo[] | undefined;
 
 
 constructor(private http:HttpClient) { }

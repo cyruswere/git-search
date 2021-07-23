@@ -8,7 +8,7 @@ import{ RepoService} from '../repo.service'
   styleUrls: ['./repos.component.css']
 })
 export class ReposComponent implements OnInit {
-  repo:Repo[];
+  repo: Repo[] = [];
 
   constructor(private repoService:RepoService) { }
   getrepository(searchItem:string){
@@ -18,7 +18,8 @@ export class ReposComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    this.getrepository('Cyrus Were')
   }
 
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { formatCurrency } from '@angular/common';
 import { NgForm } from '@angular/forms';
 import { GitUser } from '../git-user';
@@ -10,7 +10,7 @@ import { GitUser } from '../git-user';
 })
 export class SearchComponent implements OnInit {
 
-  searchItem:GitUser;
+  searchItem:GitUser | undefined;
   @Output() searchUser = new EventEmitter<any>();
   constructor() { }
 

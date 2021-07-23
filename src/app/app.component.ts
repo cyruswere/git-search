@@ -9,12 +9,13 @@ import { GithubService } from './github.service'
 })
 export class AppComponent {
   user:GitUser[] =[]
+  title: any;
   
   constructor(private gitService:GithubService){
 
   }
 
   ngOnInit(){
-    
+
   }
 }

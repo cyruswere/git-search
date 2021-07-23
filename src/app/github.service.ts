@@ -24,7 +24,7 @@ export class GithubService {
       location: string,
       email:string
     }
-    return new Promise((resolve,reject)=>{
+    return new Promise<void>((resolve,reject)=>{
       this.user = [];
       this.http.get<data>(environment.apiUrl + searchItem + environment.gitToken).toPromise().then((results)=>{
         this.user.push(results);
