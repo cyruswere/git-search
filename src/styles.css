@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bootstrap/dist/css/bootsrap.css";
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(assets/pexels-oluwaseun-duncan-226232.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90%;
+    width: 90%;
+}
