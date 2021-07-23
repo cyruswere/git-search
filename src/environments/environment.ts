@@ -4,9 +4,8 @@
 
 export const environment = {
   production: true,
-  apiUrl :'https://api.github.com/users/',
-  gitToken: '?access_token=76a98e05315e9a2ad9a4055b261fcbf8241221a3 '
-};
+  apiKey:"ghp_oDOIphlQ9aQxf4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sVCgJihl7vkMSyQq1PVp1J"
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
