@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { GitUser } from './git-user';
+import { GithubService } from './github.service'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'git-search';
+  user:GitUser[] =[]
+  
+  constructor(private gitService:GithubService){
+
+  }
+
+  ngOnInit(){
+    
+  }
 }
