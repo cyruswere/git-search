@@ -8,6 +8,7 @@ export class GitUser {
         public location:string,
         public email:string,
         public searchItem:string,
-        public bio:string
+        public bio:string,
+        public created_at:number
     ){}
 }

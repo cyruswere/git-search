@@ -24,7 +24,8 @@ export class GithubService {
       location: string,
       email:string,
       searchItem:string,
-      bio:string
+      bio:string,
+      created_at:number
 
     }
     return new Promise<void>((resolve,reject)=>{

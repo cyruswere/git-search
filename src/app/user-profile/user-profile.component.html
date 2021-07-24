@@ -11,8 +11,14 @@
                         <span class="pl-3 badge badge-primary">Following {{userInfo.following}}</span>
                         <span class="pl-3 badge badge-dark">Repositories {{userInfo.public_repos}}</span>
                     </div>
-                    
+                    <div class="creaction">
+                        <p>Created on {{userInfo.created_at|date|uppercase}}</p>
+                    </div>
+                    <p class="card-text"><i class="far fa-envelope"></i> {{userInfo.email}}</p>
+                    <p class="card-text"><i class="fas fa-map-marker-alt"></i> {{userInfo.location}}</p>
+                    <a href="userInfo.html_url" class="card-link btn btn-primamry">View profile</a>
                 </div>
+                <div><em>powered by <i class="fab fa-github-square fa-2x"></i></em></div>
             </div>
         </div>
     </div>
