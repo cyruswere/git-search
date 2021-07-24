@@ -1,4 +1,10 @@
 <div class="container">
     <app-search (searchUser)='getrepository($event)'></app-search>
-    <div class="row row-cols-1 row-cols-md2 p-5"></div>
+    <div class="row row-cols-1 row-cols-md2 p-5">
+        <div class="col-md-4" *ngFor='let rep of repo'>
+            <div class="card-body card-rep">
+                <h5 class="card-title">{{rep.name}}</h5>
+            </div>
+        </div>
+    </div>
 </div>
