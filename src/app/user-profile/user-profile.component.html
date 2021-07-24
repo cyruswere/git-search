@@ -1,1 +1,8 @@
-<app-search></app-search>
+<app-search (searchUser)="getSearchItem($event)"></app-search>
+<div class="container-fluid pt-5 pb-5">
+    <div class="row pt-5" *ngFor='let userInfo of user'>
+        <div class="col-md-9 ml-auto mr-auto">
+            <div class="card pt"></div>
+        </div>
+    </div>
+</div>

@@ -22,7 +22,9 @@ export class GithubService {
       company: string,
       public_repos: number,
       location: string,
-      email:string
+      email:string,
+      searchItem:string
+
     }
     return new Promise<void>((resolve,reject)=>{
       this.user = [];
