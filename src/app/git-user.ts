@@ -7,6 +7,7 @@ export class GitUser {
         public public_repos:number,
         public location:string,
         public email:string,
-        public searchItem:string
+        public searchItem:string,
+        public bio:string
     ){}
 }

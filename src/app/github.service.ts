@@ -23,7 +23,8 @@ export class GithubService {
       public_repos: number,
       location: string,
       email:string,
-      searchItem:string
+      searchItem:string,
+      bio:string
 
     }
     return new Promise<void>((resolve,reject)=>{
