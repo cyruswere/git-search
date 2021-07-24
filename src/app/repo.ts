@@ -4,7 +4,8 @@ export class Repo {
      public owner:any,
      public watchers: any,
      public forks:any,
-     public description:any
+     public description:any,
+     public html_url:any
     ){}
 }
 

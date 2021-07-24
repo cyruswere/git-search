@@ -9,6 +9,7 @@ export class GitUser {
         public email:string,
         public searchItem:string,
         public bio:string,
-        public created_at:number
+        public created_at:number,
+        public html_url:any
     ){}
 }

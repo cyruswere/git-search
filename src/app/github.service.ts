@@ -25,7 +25,8 @@ export class GithubService {
       email:string,
       searchItem:string,
       bio:string,
-      created_at:number
+      created_at:number,
+      html_url:any
 
     }
     return new Promise<void>((resolve,reject)=>{
