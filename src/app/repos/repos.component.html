@@ -4,6 +4,8 @@
         <div class="col-md-4" *ngFor='let rep of repo'>
             <div class="card-body card-rep">
                 <h5 class="card-title">{{rep.name}}</h5>
+                <p class="card-text">{{rep.description}}</p>
+            <p class="badge badge-primary">Watchers <span>{{rep.watchers}}</span></p>
             </div>
         </div>
     </div>

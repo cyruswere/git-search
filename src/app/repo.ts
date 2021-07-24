@@ -3,7 +3,8 @@ export class Repo {
      public name:any,
      public owner:any,
      public watchers: any,
-     public forks:any
+     public forks:any,
+     public description:any
     ){}
 }
 
