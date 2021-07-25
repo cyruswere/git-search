@@ -7,7 +7,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar/navbar.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { FormsModule } from '@angular/forms';
-import { ReposComponent } from './repos/repos.component';
+import { ReposComponent } from './search/repos/repos.component';
 import { SearchComponent } from './search/search.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { DateCountPipe } from './date-count.pipe';

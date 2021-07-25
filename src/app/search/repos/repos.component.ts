@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import{ Repo } from '../repo'
-import{ RepoService} from '../repo.service'
+import{ Repo } from '../../repo'
+import{ RepoService} from '../../repo.service'
 
 @Component({
   selector: 'app-repos',
